@@ -1,0 +1,31 @@
+User-agent: *
+Allow: /
+
+# Permitir acceso a CSS y JS para mejor indexación
+Allow: /css/
+Allow: /js/
+Allow: /img-prima/
+Allow: /*.css$
+Allow: /*.js$
+
+# Desallow archivos administrativos
+Disallow: /php/
+Disallow: /.htaccess
+Disallow: /README.md
+Disallow: /404.html
+
+# Sitemap (agregar cuando esté online)
+# Sitemap: https://tudominio.com/sitemap.xml
+
+# Configuración específica para bots importantes
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+# Crawl delay para evitar sobrecarga del servidor
+Crawl-delay: 1

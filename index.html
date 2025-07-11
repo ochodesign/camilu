@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camilu Peluquería - Realzá tu belleza natural</title>
+    <meta name="description" content="Peluquería profesional cerca de ti. Especializada en cortes, peinados, coloración y tratamientos. Servicios de calidad con estilo moderno y elegante. ¡Buscás peluquería cerca de mi? ¡Encontranos!">
+    
+    <!-- Open Graph Meta Tags para redes sociales -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Camilu Peluquería - Realzá tu belleza natural">
+    <meta property="og:description" content="Peluquería profesional cerca de ti. Especialista en cortes modernos, coloración y tratamientos de última generación. Tu nueva imagen te está esperando. Reservá tu turno ahora.">
+    <meta property="og:image" content="imagenes/logos/logo-bg-dk.webp">
+    <meta property="og:image:alt" content="Logo de Camilu Peluquería">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:url" content="https://camilupeluqueria.com">
+    <meta property="og:site_name" content="Camilu Peluquería">
+    <meta property="og:locale" content="es_AR">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Camilu Peluquería - Realzá tu belleza natural">
+    <meta name="twitter:description" content="Peluquería profesional cerca de ti. Especialista en cortes modernos, coloración y tratamientos de última generación. Tu nueva imagen te está esperando.">
+    <meta name="twitter:image" content="imagenes/logos/logo-bg-dk.webp">
+    <meta name="twitter:image:alt" content="Logo de Camilu Peluquería">
+    
+    <!-- WhatsApp específico -->
+    <meta property="og:image:type" content="image/webp">
+    <meta name="theme-color" content="#9A5CFF">
+    
+    <!-- Meta adicionales para SEO y redes -->
+    <meta name="author" content="Camilu Peluquería">
+    <meta name="keywords" content="peluquería, peluquería cerca de mi, cortes, coloración, tratamientos, peinados, trenzas, belleza, estilista, Camilu, peluquería zona norte, salón de belleza">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://camilupeluqueria.com">
+    
+    <!-- Preconnect para optimizar carga de fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome para iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- AOS Library para animaciones -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- CSS personalizado -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Favicon y íconos para dispositivos -->
+    <link rel="icon" type="image/webp" sizes="32x32" href="imagenes/logos/logo-sin-bg-dk.webp">
+    <link rel="icon" type="image/webp" sizes="16x16" href="imagenes/logos/logo-sin-bg-dk.webp">
+    <link rel="apple-touch-icon" sizes="180x180" href="imagenes/logos/logo-sin-bg-dk.webp">
+    <link rel="icon" type="image/webp" sizes="192x192" href="imagenes/logos/logo-sin-bg-dk.webp">
+    <link rel="icon" type="image/webp" sizes="512x512" href="imagenes/logos/logo-sin-bg-dk.webp">
+    
+    <!-- Meta para PWA -->
+    <meta name="theme-color" content="#2A1A4D">
+    <meta name="msapplication-TileColor" content="#2A1A4D">
+    <meta name="msapplication-TileImage" href="imagenes/logos/logo-sin-bg-dk.webp">
+    
+    <!-- Manifiesto PWA -->
+    <link rel="manifest" href="manifest.json">
+    
+    <!-- Schema.org structured data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BeautySalon",
+        "name": "Camilu Peluquería",
+        "image": "imagenes/logos/logo-bg-dk.webp",
+        "description": "Peluquería profesional cerca de ti, especializada en cortes modernos, coloración y tratamientos de última generación. Encontrá la peluquería cerca de mi ubicación.",
+        "url": "https://camilupeluqueria.com",
+        "telephone": "+54 9 11 5587-6671",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Av. Principal 1234",
+            "addressLocality": "San Martín",
+            "addressRegion": "Buenos Aires",
+            "addressCountry": "AR"
+        },
+        "openingHours": [
+            "Mo-Fr 09:00-19:00",
+            "Sa 09:00-17:00"
+        ],
+        "priceRange": "$6000-$15000",
+        "services": [
+            "Corte de cabello",
+            "Coloración",
+            "Tratamientos capilares",
+            "Peinados",
+            "Trenzas"
+        ],
+        "founder": {
+            "@type": "Person",
+            "name": "Camila"
+        },
+        "sameAs": [
+            "https://www.instagram.com/camilupeluqueria/?igsh=Z2RqdWt5dTFscDNo#",
+            "https://facebook.com/camilupeluqueria"
+        ]
+    }
+    </script>
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+        <div class="loader">
+            <div class="scissors">
+                <i class="fas fa-cut"></i>
+            </div>
+            <p>Camilu Peluquería</p>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <picture>
+                        <source media="(max-width: 768px)" srcset="imagenes/logos/logo-sin-bg-mb.webp">
+                        <img src="imagenes/logos/logo-sin-bg-dk.webp" alt="Camilu Peluquería" class="logo-img">
+                    </picture>
+                    <span class="logo-text">Camilu</span>
+                </div>
+                
+                <div class="nav-menu" id="nav-menu">
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a href="#home" class="nav-link active">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#about" class="nav-link">Sobre mí</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#services" class="nav-link">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#gallery" class="nav-link">Galería</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#promotions" class="nav-link">Promociones</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contact" class="nav-link">Contacto</a>
+                        </li>
+                        <li class="nav-item nav-social">
+                            <a href="https://www.instagram.com/camilupeluqueria/?igsh=Z2RqdWt5dTFscDNo#" class="nav-link nav-instagram" target="_blank" rel="noopener noreferrer" title="Seguinos en Instagram">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="nav-toggle" id="nav-toggle">
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="hero-background">
+                <div class="hero-overlay"></div>
+            </div>
+            <div class="hero-content">
+                <div class="container">
+                    <div class="hero-text" data-aos="fade-up" data-aos-delay="200">
+                        <h1 class="hero-title">
+                            Realzá tu <span class="highlight">belleza natural</span>
+                        </h1>
+                        <p class="hero-subtitle">
+                            Especialista en cortes modernos, coloración y tratamientos de última generación. 
+                            Tu nueva imagen te está esperando.
+                        </p>
+                        <div class="hero-buttons">
+                            <a href="https://wa.me/5491155876671?text=Hola!%20Te%20hablo%20desde%20www.camilupeluqueria.com%20y%20quiero%20reservar%20un%20turno" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+                                <i class="fas fa-calendar-alt"></i>
+                                Reservar turno
+                            </a>
+                            <a href="#services" class="btn btn-secondary">
+                                <i class="fas fa-cut"></i>
+                                Ver servicios
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-scroll">
+                <a href="#about" class="scroll-indicator">
+                    <span>Conocé más</span>
+                    <i class="fas fa-chevron-down"></i>
+                </a>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about section" id="about">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <h2 class="section-title">Sobre Camilu</h2>
+                    <p class="section-subtitle">Pasión por la belleza y dedicación profesional</p>
+                </div>
+                
+                <div class="about-content">
+                    <div class="about-image" data-aos="fade-right">
+                        <div class="image-wrapper">
+                            <picture>
+                                <source media="(max-width: 768px)" srcset="imagenes/sobre-mi/sobre-mi-mb.webp?v=2">
+                                <img src="imagenes/sobre-mi/sobre-mi-dk.webp?v=2" alt="Camila - Estilista profesional de Camilu Peluquería" class="about-img" loading="lazy">
+                            </picture>
+                            <div class="image-decoration"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="about-text" data-aos="fade-left" data-aos-delay="200">
+                        <h3 class="about-title">¡Hola! Soy Camila</h3>
+                        <p class="about-description">
+                            Recién recibida con toda la pasión y las técnicas más actuales del mundo de la peluquería. 
+                            Mi objetivo es que cada cliente se sienta único y radiante, creando looks que reflejen 
+                            su personalidad y realcen su belleza natural.
+                        </p>
+                        <div class="about-features">
+                            <div class="feature-item">
+                                <i class="fas fa-award"></i>
+                                <span>Formación profesional actualizada</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-heart"></i>
+                                <span>Atención personalizada</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-star"></i>
+                                <span>Productos de primera calidad</span>
+                            </div>
+                        </div>
+                        <a href="#gallery" class="btn btn-outline">
+                            Conocé mi trabajo
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section class="services section" id="services">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <h2 class="section-title">Servicios</h2>
+                    <p class="section-subtitle">Transformaciones que resaltan tu esencia</p>
+                </div>
+                
+                <div class="services-grid">
+                    <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="service-icon">
+                            <i class="fas fa-cut"></i>
+                        </div>
+                        <div class="service-content">
+                            <h3 class="service-title">Corte & Peinado</h3>
+                            <p class="service-description">
+                                Cortes modernos adaptados a tu rostro y estilo de vida. 
+                                Peinados para cualquier ocasión especial.
+                            </p>
+                            <ul class="service-features">
+                                <li>Asesoramiento personalizado</li>
+                                <li>Cortes actuales y clásicos</li>
+                                <li>Peinados de evento</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="service-icon">
+                            <i class="fas fa-palette"></i>
+                        </div>
+                        <div class="service-content">
+                            <h3 class="service-title">Coloración</h3>
+                            <p class="service-description">
+                                Desde cambios sutiles hasta transformaciones completas. 
+                                Técnicas modernas con productos de calidad premium.
+                            </p>
+                            <ul class="service-features">
+                                <li>Balayage y mechas</li>
+                                <li>Coloración fantasía</li>
+                                <li>Corrección de color</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                        <div class="service-icon">
+                            <i class="fas fa-spa"></i>
+                        </div>
+                        <div class="service-content">
+                            <h3 class="service-title">Tratamientos</h3>
+                            <p class="service-description">
+                                Cuidados especializados para nutrir y reparar tu cabello. 
+                                Protocolos de hidratación y reparación profunda.
+                            </p>
+                            <ul class="service-features">
+                                <li>Hidratación profunda</li>
+                                <li>Reparación de daños</li>
+                                <li>Tratamientos anti-edad</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+                        <div class="service-icon">
+                            <img src="imagenes/service/trenza-service.webp" alt="Trenzas y peinados elaborados">
+                        </div>
+                        <div class="service-content">
+                            <h3 class="service-title">Trenzas & Peinados Elaborados</h3>
+                            <p class="service-description">
+                                Creaciones únicas con trenzas artísticas y peinados elaborados. 
+                                Perfectos para eventos especiales y ocasiones memorables.
+                            </p>
+                            <ul class="service-features">
+                                <li>Trenzas tradicionales y modernas</li>
+                                <li>Peinados para novias</li>
+                                <li>Recogidos de gala</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section class="gallery section" id="gallery">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <h2 class="section-title">Galería</h2>
+                    <p class="section-subtitle">Algunos de nuestros trabajos más destacados</p>
+                </div>
+                
+                <div class="gallery-filter" data-aos="fade-up" data-aos-delay="100">
+                    <button class="filter-btn filter-btn-all active" data-filter="all">Todos</button>
+                    <div class="filter-services-group">
+                        <button class="filter-btn" data-filter="cortes">Cortes</button>
+                        <button class="filter-btn" data-filter="color">Color</button>
+                        <button class="filter-btn" data-filter="peinados">Peinados</button>
+                        <button class="filter-btn" data-filter="trenzas">Trenzas</button>
+                    </div>
+                </div>
+                
+                <div class="gallery-grid" id="gallery-grid">
+                    <!-- Las imágenes se cargarán dinámicamente con JavaScript -->
+                </div>
+                
+                <!-- Modal para galería -->
+                <div class="gallery-modal" id="gallery-modal">
+                    <div class="modal-content">
+                        <span class="modal-close">&times;</span>
+                        <img class="modal-image" id="modal-image" src="" alt="">
+                        <div class="modal-navigation">
+                            <button class="modal-prev" id="modal-prev">
+                                <i class="fas fa-chevron-left"></i>
+                            </button>
+                            <button class="modal-next" id="modal-next">
+                                <i class="fas fa-chevron-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Promotions Section -->
+        <section class="promotions section" id="promotions">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <h2 class="section-title">Promociones</h2>
+                    <p class="section-subtitle">Ofertas especiales para que te consientas</p>
+                </div>
+                
+                <div class="promotions-grid">
+                    <div class="promo-card featured" data-aos="fade-up" data-aos-delay="100">
+                        <div class="promo-badge">¡Nuevo cliente!</div>
+                        <div class="promo-content">
+                            <h3 class="promo-title">Primera visita</h3>
+                            <div class="promo-price">
+                                <span class="new-price">15% de descuento</span>
+                            </div>
+                            <p class="promo-description">
+                                Corte + Lavado + Peinado para clientes nuevos. 
+                                ¡Conocé nuestro trabajo con este descuento especial!
+                            </p>
+                            <a href="https://wa.me/5491155876671?text=Hola!%20Te%20hablo%20desde%20www.camilupeluqueria.com%20y%20quiero%20reservar%20un%20turno" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Reservar ahora</a>
+                        </div>
+                    </div>
+                    
+                    <div class="promo-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="promo-content">
+                            <h3 class="promo-title">Combo Completo</h3>
+                            <div class="promo-price">
+                                <span class="new-price">Corte + Color + Tratamiento</span>
+                            </div>
+                            <p class="promo-description">
+                                Un combo pensado para renovar tu estilo y cuidar tu cabello en profundidad, con resultados visibles desde la primera sesión.
+                            </p>
+                            <a href="https://wa.me/5491155876671?text=Hola!%20Quiero%20mas%20info%20del%20combo%20completo" class="btn btn-outline" target="_blank" rel="noopener noreferrer">Más info</a>
+                        </div>
+                    </div>
+                    
+                    <div class="promo-card" data-aos="fade-up" data-aos-delay="300">
+                        <div class="promo-content">
+                            <h3 class="promo-title">Mes del Amigo</h3>
+                            <div class="promo-price">
+                                <span class="new-price">2 x 1 </span>
+                            </div>
+                            <p class="promo-description">
+                                Vení con tu amiga y disfruten juntas una mascarilla de colágeno… ¡una paga, la otra va de regalo!
+                            </p>
+                            <a href="https://wa.me/5491155876671?text=Hola!%20Te%20hablo%20por%20la%20promo%202x1" class="btn btn-outline" target="_blank" rel="noopener noreferrer">Consultar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact section" id="contact">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <h2 class="section-title">Contacto</h2>
+                    <p class="section-subtitle">¿Lista para tu transformación? ¡Hablemos!</p>
+                </div>
+                
+                <div class="contact-content">
+                    <div class="contact-info" data-aos="fade-right">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Ubicación</h4>
+                                <p>San Martín, Buenos Aires<br>Argentina</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Teléfono</h4>
+                                <p>+54 9 11 5587-6671</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Horarios</h4>
+                                <p>Lun - Vie: 9:00 - 19:00<br>Sáb: 9:00 - 17:00</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-social">
+                            <h4>Seguinos en redes</h4>
+                            <div class="social-links">                        <a href="https://www.instagram.com/camilupeluqueria/?igsh=Z2RqdWt5dTFscDNo#" class="social-link" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                                <a href="#" class="social-link" target="_blank">
+                                    <i class="fab fa-facebook"></i>
+                                </a>
+                                <a href="https://wa.me/5491155876671?text=Hola!%20Me%20interesa%20reservar%20un%20turno%20en%20Camilu%20Peluqueria" class="social-link" target="_blank">
+                                    <i class="fab fa-whatsapp"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-form-wrapper" data-aos="fade-left" data-aos-delay="200">
+                        <form class="contact-form" id="contact-form" action="php/contact.php" method="POST">
+                            <!-- Honeypot field para prevenir spam -->
+                            <input type="text" name="website" style="display: none;" tabindex="-1" autocomplete="off">
+                            
+                            <div class="form-group">
+                                <label for="name">Nombre completo</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="phone">WhatsApp</label>
+                                <input type="tel" id="phone" name="phone" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="service">Servicio de interés</label>
+                                <select id="service" name="service" required>
+                                    <option value="">Seleccioná un servicio</option>
+                                    <option value="corte">Corte</option>
+                                    <option value="color">Coloración</option>
+                                    <option value="tratamiento">Tratamiento</option>
+                                    <option value="trenzas">Trenzas & Peinados</option>
+                                    <option value="combo">Combo completo</option>
+                                    <option value="consulta">Consulta general</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message">Mensaje</label>
+                                <textarea id="message" name="message" rows="5" placeholder="Contanos qué tenés en mente..."></textarea>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary btn-full">
+                                <i class="fas fa-paper-plane"></i>
+                                Enviar mensaje
+                            </button>
+                        </form>
+                        
+                        <!-- Mensaje de respuesta -->
+                        <div id="form-response" class="form-response"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand" data-aos="fade-up">
+                    <div class="footer-logo-wrapper">
+                        <picture>
+                            <source media="(max-width: 768px)" srcset="imagenes/logos/logo-sin-bg-mb.webp">
+                            <img src="imagenes/logos/logo-sin-bg-dk.webp" alt="Camilu Peluquería" class="footer-logo">
+                        </picture>
+                    </div>
+                    <h3 class="footer-brand-name">Camilu Peluquería</h3>
+                    <p class="footer-tagline">Realzando tu belleza natural con pasión y profesionalismo</p>
+                    
+                    <div class="footer-social">
+                        <a href="https://www.instagram.com/camilupeluqueria/?igsh=Z2RqdWt5dTFscDNo#" class="footer-social-link" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="footer-social-link" target="_blank">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="https://wa.me/5491155876671?text=Hola!%20Me%20interesa%20reservar%20un%20turno%20en%20Camilu%20Peluqueria" class="footer-social-link" target="_blank">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                        <a href="#" class="footer-social-link" target="_blank">
+                            <i class="fab fa-tiktok"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-sections-group" data-aos="fade-up" data-aos-delay="100">
+                    <div class="footer-section">
+                        <h4 class="footer-title">
+                            Contacto
+                        </h4>
+                        <div class="footer-contact-info">
+                            <div class="footer-contact-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>San Martín, Buenos Aires<br>Argentina</span>
+                            </div>
+                            <div class="footer-contact-item">
+                                <i class="fas fa-phone"></i>
+                                <span>+54 9 11 5587-6671</span>
+                            </div>
+                            <div class="footer-contact-item">
+                                <i class="fas fa-clock"></i>
+                                <span>Lun - Sáb: 9:00 - 19:00</span>
+                            </div>
+                            <div class="footer-contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <span>info@camilupeluqueria.com</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="footer-section">
+                        <h4 class="footer-title">
+                            <i class="fas fa-cut"></i>
+                            Servicios
+                        </h4>
+                        <ul class="footer-list">
+                            <li><a href="#services">Corte & Peinado</a></li>
+                            <li><a href="#services">Coloración</a></li>
+                            <li><a href="#services">Tratamientos</a></li>
+                            <li><a href="#services">Trenzas & Peinados</a></li>
+                            <li><a href="#promotions">Promociones</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-section">
+                        <h4 class="footer-title">
+                            <i class="fas fa-info-circle"></i>
+                            Información
+                        </h4>
+                        <ul class="footer-list">
+                            <li><a href="#about">Sobre Camilu</a></li>
+                            <li><a href="#gallery">Galería</a></li>
+                            <li><a href="#contact">Contacto</a></li>
+                            <li><a href="#home">Inicio</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="footer-bottom-content">
+                    <p>&copy; 2025 Camilu Peluquería. Todos los derechos reservados. | <a href="#" id="privacy-link" class="privacy-link">Política de Privacidad</a></p>
+                    <div class="footer-credits">
+                        <p>Diseñado por <span class="designer-name">El Ochoo</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to top button -->
+    <button class="scroll-top" id="scroll-top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- WhatsApp floating button -->
+    <div class="whatsapp-container">
+        <a href="https://wa.me/5491155876671?text=Hola!%20Me%20interesa%20reservar%20un%20turno%20en%20Camilu%20Peluqueria" 
+           class="whatsapp-float" 
+           target="_blank" 
+           title="Contactanos por WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+            <span class="whatsapp-notification" id="whatsapp-notification">1</span>
+        </a>
+        <div class="whatsapp-message" id="whatsapp-message">
+            <div class="message-content">
+                <p>¿Listo para un nuevo look? Reservá tu turno fácil.</p>
+            </div>
+            <div class="message-arrow"></div>
+        </div>
+    </div>
+
+    <!-- Modal de Política de Privacidad -->
+    <div class="privacy-modal" id="privacy-modal">
+        <div class="privacy-modal-content">
+            <div class="privacy-modal-header">
+                <h3>Política de Privacidad</h3>
+                <span class="privacy-modal-close" id="privacy-modal-close">&times;</span>
+            </div>
+            <div class="privacy-modal-body">
+                <h4>Información que recopilamos</h4>
+                <p>En Camilu Peluquería recopilamos únicamente la información necesaria para brindar nuestros servicios:</p>
+                <ul>
+                    <li><strong>Información de contacto:</strong> Nombre, teléfono, email para coordinar turnos y comunicación.</li>
+                    <li><strong>Información del servicio:</strong> Tipo de servicio solicitado y preferencias específicas.</li>
+                    <li><strong>Información técnica:</strong> Cookies de navegación para mejorar la experiencia en nuestro sitio web.</li>
+                </ul>
+
+                <h4>Cómo usamos tu información</h4>
+                <p>Tu información se utiliza exclusivamente para:</p>
+                <ul>
+                    <li>Confirmar y recordar citas</li>
+                    <li>Brindar un servicio personalizado</li>
+                    <li>Enviar promociones y novedades (solo si lo autorizas)</li>
+                    <li>Mejorar nuestros servicios</li>
+                </ul>
+
+                <h4>Protección de datos</h4>
+                <p>Nos comprometemos a proteger tu información personal:</p>
+                <ul>
+                    <li>No compartimos tu información con terceros sin tu consentimiento</li>
+                    <li>Implementamos medidas de seguridad para proteger tus datos</li>
+                    <li>Puedes solicitar la eliminación de tus datos en cualquier momento</li>
+                </ul>
+
+                <h4>Cookies</h4>
+                <p>Utilizamos cookies para mejorar tu experiencia de navegación. Puedes desactivarlas en tu navegador si lo prefieres.</p>
+
+                <h4>Contacto</h4>
+                <p>Si tienes consultas sobre nuestra política de privacidad, puedes contactarnos:</p>
+                <ul>
+                    <li>WhatsApp: +54 9 11 5587-6671</li>
+                    <li>Email: info@camilupeluqueria.com</li>
+                    <li>Instagram: @camilupeluqueria</li>
+                </ul>
+
+                <p><small>Última actualización: Julio 2025</small></p>
+            </div>
+            <div class="privacy-modal-footer">
+                <button class="btn btn-primary" id="privacy-accept">Aceptar</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

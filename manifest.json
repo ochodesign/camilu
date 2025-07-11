@@ -1,0 +1,27 @@
+{
+  "name": "Camilu Peluquería",
+  "short_name": "Camilu",
+  "description": "Peluquería profesional especializada en cortes, peinados, trenzas, coloración y tratamientos",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#2A1A4D",
+  "theme_color": "#9A5CFF",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "imagenes/logos/logo-sin-bg-dk.webp",
+      "sizes": "192x192",
+      "type": "image/webp",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "imagenes/logos/logo-sin-bg-dk.webp",
+      "sizes": "512x512",
+      "type": "image/webp",
+      "purpose": "maskable any"
+    }
+  ],
+  "categories": ["beauty", "lifestyle"],
+  "lang": "es",
+  "dir": "ltr"
+}
